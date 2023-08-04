@@ -1,1 +1,58 @@
+   body {
+    background: url(drums.jpg) center fixed no-repeat;
+    background-size: cover; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    }
 
+    .activated {
+    transform: scale(1.1);
+    border-color: hotpink;
+    border: 2rem;
+    box-shadow: 0 0 0.7rem hotpink;
+    }
+  
+    .button {
+    background-color: rgba(0,0,0,0.3);
+    border: 2px solid black;
+    border-radius: 0.8rem;
+    color:white;
+    font-size: 1.5rem;
+    height: 3rem;
+    margin: 0.6rem;
+    max-width: 4rem;
+    min-width: 3rem;
+    padding: 0.7rem;
+    text-align: center;
+    text-shadow: 0 0 1rem black;
+    transition: all 0.07s;
+    width: 5rem;
+    }
+
+    .buttons {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    min-height: 10rem;
+    width: 80%;
+    }
+
+    .center {
+    margin: 0;
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    }
+
+    .sound {
+    color: white;
+    display: block;
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 0.1rem;
+    }
