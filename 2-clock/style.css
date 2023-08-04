@@ -1,0 +1,63 @@
+    body {
+        align-items: center;
+        background: url(clock.jpg) no-repeat center fixed;
+        background-size: cover; 
+        display: flex;
+        min-height: 25rem;
+        flex: 1;
+        font-size: 2rem;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+    
+    .dial {
+        height: 100%;
+        position: relative;
+        transform: translateY(-3px);
+        width: 100%;
+    }
+
+    .hour {
+        background-color: black;
+        width:40%;
+        left:10%;
+        height:8px;
+        top: 50%;
+    }
+    
+    .minute {
+        background-color: black;
+        width: 50%;
+        height:8px;
+        top: 50%;
+    }
+    
+    .outline {
+        background-color: rgba(0,0,0,0.25);
+        border: 0.25rem solid black;
+        border-radius: 50%;
+        height: 30rem;
+        padding: 2rem;
+        width: 30rem;
+        margin: 0;
+        left: 50%;
+        position: absolute;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .second {
+        background-color: red;
+        height: 3px;
+        width: 50%;
+        top: 50.5%;
+    }
+
+    .time {
+        border-radius: 50px;
+        position: absolute;
+        transition: all 0.05s;
+        transform: rotate(90deg);
+        transform-origin: 100%;
+        transition-timing-function: ease-in-out;
+    }
