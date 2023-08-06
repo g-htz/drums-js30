@@ -1,1 +1,42 @@
+:root {
+    --base:#491d00;
+    --blur:0px;
+    --border-radius: 0%;
+    --opacity:1;
+    --spacing:20px;
+    --width: 40%;
+}
+body {
+  color: white;
+  background: linear-gradient(pink, purple) no-repeat fixed; 
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size:cover;
+  font-size: 1.4rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
 
+label {
+    font-size: 1.2rem;
+}
+  
+.controls {
+    margin-top: 2rem;
+}
+  
+img {
+    background: var(--base);
+    border-radius: var(--border-radius);
+    filter: blur(var(--blur));
+    opacity: var(--opacity);
+    padding: var(--spacing);
+    width: var(--width);
+} 
+  
+input {
+    width: 10rem;
+}
+  
+  
+  
